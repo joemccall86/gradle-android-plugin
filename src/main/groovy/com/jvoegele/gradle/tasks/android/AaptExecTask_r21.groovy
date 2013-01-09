@@ -62,7 +62,7 @@ class AaptExecTask_r21 extends AndroidAntTask {
         assets: androidConvention.assetsDir,
         androidjar: ant['android.jar'],
         apkfolder: project.libsDir,
-        nocrunch: true,
+        nocrunch: false,
         resourcefilename: androidConvention.resourceFileName,
         // resourcefilter="${aapt.resource.filter}"
         // previousBuildType="${build.last.target}"
